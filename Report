@@ -1,0 +1,17 @@
+Map            Strategy       Success   Done    Energy    Time      Compute (s)    
+small.map      bfs            True      1       992       8         0.000349
+small.map      ucs            True      1       992       8         0.000535
+small.map      astar          True      1       992       8         0.000209
+small.map      hillclimb      True      1       992       8         0.000906
+small.map      simanneal      True      1       924       76        0.007514
+medium.map     bfs            True      2       952       44        0.001562
+medium.map     ucs            True      2       956       44        0.002311
+medium.map     astar          True      2       956       44        0.001164
+medium.map     hillclimb      True      2       946       46        0.002343
+medium.map     simanneal      False     0       997       3         0.001010
+large.map      bfs            False     0       998       2         0.000185
+large.map      ucs            False     0       998       2         0.000276
+large.map      astar          False     0       998       2         0.000200
+large.map      hillclimb      False     0       998       2         0.000323
+large.map      simanneal      False     0       992       8         0.002140
+
